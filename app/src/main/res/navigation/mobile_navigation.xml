@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_hotel">
+
+    <fragment
+        android:id="@+id/nav_hotel"
+        android:name="ru.ahmedov.uiuxsampleproject.ui.hotel.HotelFragment"
+        android:label="Гостиницы и отели"
+        tools:layout="@layout/fragment_hotel" />
+
+    <fragment
+        android:id="@+id/nav_attraction"
+        android:name="ru.ahmedov.uiuxsampleproject.ui.attraction.AttractionFragment"
+        android:label="Достопримечательности"
+        tools:layout="@layout/fragment_attraction" />
+
+    <fragment
+        android:id="@+id/nav_route"
+        android:name="ru.ahmedov.uiuxsampleproject.ui.route.RouteFragment"
+        android:label="Маршруты"
+        tools:layout="@layout/fragment_route" />
+
+    <fragment
+        android:id="@+id/nav_tools"
+        android:name="ru.ahmedov.uiuxsampleproject.ui.tools.ToolsFragment"
+        android:label="Настройки"
+        tools:layout="@layout/fragment_tools" />
+
+    <fragment
+        android:id="@+id/nav_entertainment"
+        android:name="ru.ahmedov.uiuxsampleproject.ui.entertainment.EntertainmentFragment"
+        android:label="Развлечения"
+        tools:layout="@layout/fragment_entertainment" />
+
+    <fragment
+        android:id="@+id/nav_cafe"
+        android:name="ru.ahmedov.uiuxsampleproject.ui.cafe.CafeFragment"
+        android:label="Кафе и рестораны"
+        tools:layout="@layout/fragment_cafe" />
+</navigation>

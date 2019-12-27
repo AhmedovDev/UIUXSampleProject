@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_hotel"
+            android:icon="@drawable/ic_location_city_black_24dp"
+            android:title="Где остановиться?" />
+        <item
+            android:id="@+id/nav_attraction"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="На что посмотреть?" />
+        <item
+            android:id="@+id/nav_route"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Маршруты" />
+        <item
+            android:id="@+id/nav_tools"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Настройки" />
+    </group>
+
+    <item android:title="Активный отдых">
+        <menu>
+            <item
+                android:id="@+id/nav_entertainment"
+                android:icon="@drawable/ic_whatshot_black_24dp"
+                android:title="Развлечения" />
+            <item
+                android:id="@+id/nav_cafe"
+                android:icon="@drawable/ic_free_breakfast_black_24dp"
+                android:title="Кафе и рестораны" />
+        </menu>
+    </item>
+
+</menu>
